@@ -1,0 +1,12 @@
+(module SWITCH_WK818H (layer F.Cu) (tedit 5EB8E598)
+  (attr smd)
+  (fp_text reference S2 (at -0.9271 -4.8641 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_text value SWITCH/TOUCH/WK818H (at 7.7089 3.7719 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_circle (center 0.0762 -0.2794) (end 2.23146 -0.2794) (layer F.SilkS) (width 0.254))
+  (pad 2 smd circle (at 0.06859 1.99987) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd circle (at 0.06858 -2.57213) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
+)

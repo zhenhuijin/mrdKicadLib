@@ -1,0 +1,17 @@
+(module CON_DIP_1X4PIN_5.08MM_HTS08 (layer F.Cu) (tedit 5DDC885E)
+  (attr smd)
+  (fp_text reference J (at -0.381 -3.7465 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_text value CON/DIP/1X4PIN/HTS08R (at 8.0645 13.081 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_line (start 17.78 11) (end 17.78 -2) (layer F.SilkS) (width 0.1))
+  (fp_line (start -2.5 -2) (end 17.78 -2) (layer F.SilkS) (width 0.1))
+  (fp_line (start -2.5 11) (end -2.5 -2) (layer F.SilkS) (width 0.1))
+  (fp_line (start -2.5 11) (end 17.78 11) (layer F.SilkS) (width 0.1))
+  (pad 4 thru_hole circle (at 15.24 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 10.16 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 5.08 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
+)

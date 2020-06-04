@@ -1,0 +1,17 @@
+(module RELAY.HF41FD_024-1H (layer F.Cu) (tedit 5DDB712B)
+  (attr smd)
+  (fp_text reference K (at 3.1115 -17.4625 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_text value HF41FD/024-1H (at 9.271 2.7305 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_line (start -0.9 0) (end -0.9 -15) (layer F.SilkS) (width 0.2))
+  (fp_line (start 27.1 0) (end 27.1 -15) (layer F.SilkS) (width 0.2))
+  (fp_line (start -0.9 -15) (end 27.1 -15) (layer F.SilkS) (width 0.2))
+  (fp_line (start -0.9 0) (end 27.1 0) (layer F.SilkS) (width 0.2))
+  (pad 5 thru_hole circle (at 0 0 180) (size 1.7 1.7) (drill 0.9) (layers *.Cu *.Mask))
+  (pad 4 thru_hole circle (at 3.78 0 180) (size 1.7 1.7) (drill 0.9) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 25.2 0 180) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 20.15 0 180) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
+)
