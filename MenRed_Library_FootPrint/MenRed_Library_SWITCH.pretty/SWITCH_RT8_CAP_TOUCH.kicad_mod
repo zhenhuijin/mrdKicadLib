@@ -1,0 +1,14 @@
+(module SWITCH_RT8_CAP_TOUCH (layer F.Cu) (tedit 5EB9135A)
+  (attr smd)
+  (fp_text reference SW7 (at -3.5306 -3.81 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_text value CAP_TOUCH (at -0.2921 6.3881 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_line (start 5.278759 3.833514) (end -4.721241 3.833514) (layer F.SilkS) (width 0.2))
+  (fp_line (start 5.278759 -2.666486) (end -4.721241 -2.666486) (layer F.SilkS) (width 0.2))
+  (fp_line (start -4.721241 3.833514) (end -4.721241 -2.666486) (layer F.SilkS) (width 0.2))
+  (fp_line (start 5.278759 -2.666486) (end 5.278759 3.833514) (layer F.SilkS) (width 0.2))
+  (pad 1 smd rect (at 0.3048 0.5588) (size 10 6.4) (layers F.Cu F.Paste F.Mask))
+)

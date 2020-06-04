@@ -1,0 +1,18 @@
+(module RELAY.HF46FB-012-ZS3 (layer F.Cu) (tedit 5DDB714E)
+  (attr smd)
+  (fp_text reference K (at -4.5847 -3.1369 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_text value HF46FB/012-ZS3 (at 1.5113 24.4221 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_line (start -5.79999 23.10201) (end -5.79999 -1.2) (layer F.SilkS) (width 0.1))
+  (fp_line (start 1.2 23.10201) (end 1.2 -1.2) (layer F.SilkS) (width 0.1))
+  (fp_line (start -5.76804 23.10201) (end 1.232 23.10201) (layer F.SilkS) (width 0.1))
+  (fp_line (start -5.76804 -1.2) (end 1.232 -1.2) (layer F.SilkS) (width 0.1))
+  (pad 5 thru_hole oval (at 0 0 270) (size 2.5 1.8) (drill 1.0922) (layers *.Cu *.Mask))
+  (pad 4 thru_hole oval (at -4.69999 0 270) (size 2.5 1.8) (drill 1.0922) (layers *.Cu *.Mask))
+  (pad 3 thru_hole oval (at -4.699 21.5 270) (size 2.5 1.8) (drill 1.0922) (layers *.Cu *.Mask))
+  (pad 2 thru_hole oval (at -4.69999 11.5 270) (size 2.5 1.8) (drill 1.0922) (layers *.Cu *.Mask))
+  (pad 1 thru_hole oval (at -4.69999 16.5 270) (size 2.5 1.8) (drill 1.0922) (layers *.Cu *.Mask))
+)

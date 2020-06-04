@@ -1,0 +1,18 @@
+(module RELAY.HF32F-012-HSL (layer F.Cu) (tedit 5DDB7108)
+  (attr smd)
+  (fp_text reference K (at 0.4699 -3.3655 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_text value HF32F/012-HSL (at 5.5499 18.0721 unlocked) (layer F.SilkS) hide
+    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+  )
+  (fp_line (start -1.2 -1.5) (end -0.2 -1.5) (layer F.SilkS) (width 0.2))
+  (fp_line (start -1.2 16.69999) (end -1.2 -1.5) (layer F.SilkS) (width 0.2))
+  (fp_line (start -0.2 -1.5) (end 8.80001 -1.5) (layer F.SilkS) (width 0.2))
+  (fp_line (start -1.2 16.69999) (end 8.80001 16.69999) (layer F.SilkS) (width 0.2))
+  (fp_line (start 8.80001 16.69999) (end 8.80001 -1.5) (layer F.SilkS) (width 0.2))
+  (pad 4 thru_hole rect (at 7.60001 15.19999 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 0.00001 15.2 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 0 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 7.60001 2.49999 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
+)
