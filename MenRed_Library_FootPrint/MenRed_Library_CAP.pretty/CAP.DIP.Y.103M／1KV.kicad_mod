@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 (module CAP.DIP.Y.103M／1KV (layer F.Cu) (tedit 5F322D13)
   (tags "10504.0027 103M1KV脚距:7.5mm")
   (fp_text reference REF** (at -2.0828 -2.1844) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value CAP.DIP.Y.103M/1KV (at 0.0762 2.1336) (layer F.Fab)
+=======
+(module CAP.DIP.Y.103M／1KV (layer F.Cu) (tedit 5DF6D9A0)
+  (tags "10504.0027 103M1KV脚距:7.5mm")
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CAP.DIP.Y.103M/1KV (at 0 -0.5) (layer F.Fab)
+>>>>>>> fecf508f1ab00b19e91a6b532af32cbf7608449d
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_arc (start 3.7084 -0.10688) (end 3.7084 1.09312) (angle -180) (layer F.SilkS) (width 0.127))
