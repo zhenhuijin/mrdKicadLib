@@ -1,10 +1,10 @@
-(module L_TARNS_JYEPC13_EPC13 (layer F.Cu) (tedit 5F0406CA)
+(module L_TARNS_JYEPC13_EPC13 (layer F.Cu) (tedit 5F6A9F37)
   (attr smd)
   (fp_text reference TR6 (at -0.762 -0.254 unlocked) (layer F.SilkS) hide
-    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+    (effects (font (size 1.332992 1.40208) (thickness 0.127)))
   )
   (fp_text value JYEPC13/EPC (at -0.7112 8.1534 unlocked) (layer F.SilkS) hide
-    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
+    (effects (font (size 1.332992 1.40208) (thickness 0.127)))
   )
   (fp_line (start -6.6294 -6.6294) (end 6.6294 -6.6294) (layer F.SilkS) (width 0.127))
   (fp_line (start 6.6294 6.6294) (end 6.6294 -6.6294) (layer F.SilkS) (width 0.127))
