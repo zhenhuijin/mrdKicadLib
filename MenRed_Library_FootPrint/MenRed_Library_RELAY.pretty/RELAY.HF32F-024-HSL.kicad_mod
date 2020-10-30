@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 (module RELAY.HF32F-024-HSL (layer F.Cu) (tedit 5F06DC51)
-=======
-(module RELAY.HF32F-024-ZS (layer F.Cu) (tedit 5DDB7117)
->>>>>>> fecf508f1ab00b19e91a6b532af32cbf7608449d
   (attr smd)
   (fp_text reference K (at -5.4991 -13.3985 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
   )
-<<<<<<< HEAD
   (fp_text value HF32F/012/ZS (at 1.2827 10.2489 unlocked) (layer F.SilkS) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
   )
@@ -21,19 +16,4 @@
   (pad 3 thru_hole circle (at -3.7592 -7.8232 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -3.7592 -3.8232 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 3.84081 -5.3232 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
-=======
-  (fp_text value HF32F/012/ZS (at -0.9271 8.0391 unlocked) (layer F.SilkS) hide
-    (effects (font (size 1.332992 1.40208) (thickness 0.254)))
-  )
-  (fp_line (start -6.169 -11.53299) (end 2.83101 -11.53299) (layer F.SilkS) (width 0.2))
-  (fp_line (start 2.83101 6.667) (end 2.83101 -11.53299) (layer F.SilkS) (width 0.2))
-  (fp_line (start -7.169 -11.53299) (end -6.169 -11.53299) (layer F.SilkS) (width 0.2))
-  (fp_line (start -7.169 6.667) (end 2.83101 6.667) (layer F.SilkS) (width 0.2))
-  (fp_line (start -7.169 6.667) (end -7.169 -11.53299) (layer F.SilkS) (width 0.2))
-  (pad 5 thru_hole circle (at -5.96899 5.16701 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
-  (pad 4 thru_hole circle (at 1.63101 5.167 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
-  (pad 3 thru_hole circle (at -5.969 -10.033 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at -5.969 -6.033 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 1.63101 -7.533 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
->>>>>>> fecf508f1ab00b19e91a6b532af32cbf7608449d
 )

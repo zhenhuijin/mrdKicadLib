@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 (module OTHER.TEST (layer F.Cu) (tedit 5F053106)
   (fp_text reference REF** (at 0.254 2.921) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -7,18 +6,4 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad 1 smd circle (at 0 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask))
-=======
-(module OTHER.TEST (layer F.Cu) (tedit 5E83E810)
-  (descr "Mesurement Point, Round, SMD Pad, DM 1.5mm,")
-  (tags "Mesurement Point Round SMD Pad 1.5mm")
-  (attr virtual)
-  (fp_text reference REF** (at 0 -2) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value OTHER.TEST (at 0 2) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 0 0) (end 1 0) (layer F.SilkS) (width 0.05))
-  (pad 1 smd circle (at 0 0) (size 1.5 1.5) (layers F.Cu F.Mask))
->>>>>>> fecf508f1ab00b19e91a6b532af32cbf7608449d
 )

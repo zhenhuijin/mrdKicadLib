@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 (module CAP.SMT.1206C (layer F.Cu) (tedit 5EBCAB41)
-=======
-(module CAP.SMT.1206C (layer F.Cu) (tedit 5E9FF7D3)
->>>>>>> fecf508f1ab00b19e91a6b532af32cbf7608449d
   (fp_text reference REF** (at -0.762 -1.9304) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

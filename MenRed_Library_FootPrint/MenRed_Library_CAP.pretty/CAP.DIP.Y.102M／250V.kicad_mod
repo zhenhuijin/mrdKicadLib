@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 (module CAP.DIP.Y.102M／250V (layer F.Cu) (tedit 5F322D0A)
   (tags "10504.0016 102M400V")
   (fp_text reference REF** (at -3.4036 -1.9812) (layer F.SilkS)
-=======
-(module CAP.DIP.Y.102M／250V (layer F.Cu) (tedit 5DF6D999)
-  (tags "10504.0016 102M400V")
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
->>>>>>> fecf508f1ab00b19e91a6b532af32cbf7608449d
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value CAP.DIP.Y.102M/250V (at -0.4826 2.6242) (layer F.Fab)

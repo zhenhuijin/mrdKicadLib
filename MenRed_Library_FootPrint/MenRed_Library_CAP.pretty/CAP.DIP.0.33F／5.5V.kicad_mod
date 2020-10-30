@@ -1,18 +1,11 @@
-<<<<<<< HEAD
 (module CAP.DIP.0.33F／5.5V (layer F.Cu) (tedit 5F322B9F)
   (tags "10504.0021 0.33F/5.5V/立式")
   (fp_text reference REF** (at 0.3429 7.0786) (layer F.SilkS)
-=======
-(module CAP.DIP.0.33F／5.5V (layer F.Cu) (tedit 5DD8C360)
-  (tags "10504.0021 0.33F/5.5V/立式")
-  (fp_text reference REF** (at 0.4445 5.58) (layer F.SilkS)
->>>>>>> fecf508f1ab00b19e91a6b532af32cbf7608449d
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value CAP.DIP.0.33F/5.5V (at 0.4445 4.58) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-<<<<<<< HEAD
   (fp_poly (pts (xy 0.7709 4.7206) (xy 3.0569 4.7206) (xy 3.0569 -5.2324) (xy 0.7709 -5.2324)) (layer F.SilkS) (width 0))
   (fp_line (start -1.9431 -5.2794) (end 3.0569 -5.2794) (layer F.SilkS) (width 0.1))
   (fp_line (start 3.0569 4.7206) (end 3.0569 -5.2794) (layer F.SilkS) (width 0.1))
@@ -20,13 +13,4 @@
   (fp_line (start -1.9431 4.7206) (end 3.0569 4.7206) (layer F.SilkS) (width 0.1))
   (pad 2 thru_hole circle (at 3.0569 -0.2794) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -1.9431 -0.2794) (size 2 2) (drill 1) (layers *.Cu *.Mask))
-=======
-  (fp_poly (pts (xy 0.8725 3.222) (xy 3.1585 3.222) (xy 3.1585 -6.731) (xy 0.8725 -6.731)) (layer F.SilkS) (width 0))
-  (fp_line (start -1.8415 -6.778) (end 3.1585 -6.778) (layer F.SilkS) (width 0.1))
-  (fp_line (start 3.1585 3.222) (end 3.1585 -6.778) (layer F.SilkS) (width 0.1))
-  (fp_line (start -1.8415 3.222) (end -1.8415 -6.778) (layer F.SilkS) (width 0.1))
-  (fp_line (start -1.8415 3.222) (end 3.1585 3.222) (layer F.SilkS) (width 0.1))
-  (pad 2 thru_hole circle (at 3.1585 -1.778) (size 2 2) (drill 1) (layers *.Cu *.Mask))
-  (pad 1 thru_hole rect (at -1.8415 -1.778) (size 2 2) (drill 1) (layers *.Cu *.Mask))
->>>>>>> fecf508f1ab00b19e91a6b532af32cbf7608449d
 )

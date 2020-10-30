@@ -1,18 +1,10 @@
-<<<<<<< HEAD
 (module CAP.SMT.5x5.3 (layer F.Cu) (tedit 5F322D21)
-=======
-(module CAP.SMT.5x5.3 (layer F.Cu) (tedit 5DAEBFD7)
->>>>>>> fecf508f1ab00b19e91a6b532af32cbf7608449d
   (descr "SMT capacitor, aluminium electrolytic, 5x5.3")
   (attr smd)
   (fp_text reference REF** (at 0 3.92) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-<<<<<<< HEAD
   (fp_text value CAP.SMT.5x5.3 (at 0.2286 5.2832) (layer F.SilkS)
-=======
-  (fp_text value CAP.SMT.5x5.3 (at 0 -3.92) (layer F.Fab)
->>>>>>> fecf508f1ab00b19e91a6b532af32cbf7608449d
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 0 0) (end 0.3 2.4) (layer F.Fab) (width 0.1))
