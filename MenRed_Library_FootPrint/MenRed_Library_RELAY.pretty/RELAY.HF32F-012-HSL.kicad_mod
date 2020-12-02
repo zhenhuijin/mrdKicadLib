@@ -1,9 +1,9 @@
-(module RELAY.HF32F-012-HSL (layer F.Cu) (tedit 5F042AA8)
+(module RELAY.HF32F-012-HSL (layer F.Cu) (tedit 5FC4A25F)
   (attr smd)
-  (fp_text reference K (at -3.1877 -10.5791 unlocked) (layer F.SilkS) hide
+  (fp_text reference K (at -3.1877 -10.5791 unlocked) (layer F.SilkS)
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
   )
-  (fp_text value HF32F/012-HSL (at 1.8923 10.8585 unlocked) (layer F.SilkS) hide
+  (fp_text value HF32F/012-HSL (at 1.8923 10.8585 unlocked) (layer F.Fab) hide
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
   )
   (fp_line (start -4.8576 -8.7136) (end -3.8576 -8.7136) (layer F.SilkS) (width 0.2))
@@ -15,4 +15,9 @@
   (pad 3 thru_hole circle (at -3.65759 7.9864 90) (size 2 2) (drill 0.9906) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -3.6576 -7.2136 90) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 3.94241 -4.71361 90) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
+  (model ${D}/HF32F.stp
+    (offset (xyz 5 -9.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -180 0 -90))
+  )
 )

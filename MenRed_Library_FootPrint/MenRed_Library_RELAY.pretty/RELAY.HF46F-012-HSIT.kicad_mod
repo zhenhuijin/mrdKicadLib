@@ -1,4 +1,4 @@
-(module RELAY.HF46F-012-HSIT (layer F.Cu) (tedit 5E8D2E41)
+(module RELAY.HF46F-012-HSIT (layer F.Cu) (tedit 5FBB4FA9)
   (attr smd)
   (fp_text reference K (at -2.4257 -11.5443 unlocked) (layer F.SilkS)
     (effects (font (size 1.332992 1.40208) (thickness 0.254)))
@@ -14,4 +14,9 @@
   (pad 3 thru_hole oval (at 2.159 -8.4074 270) (size 2.5 1.8) (drill 1.0922) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at -2.54099 3.0926 270) (size 2.5 1.8) (drill 1.0922) (layers *.Cu *.Mask))
   (pad 1 thru_hole oval (at -2.54099 10.09259 270) (size 2.5 1.8) (drill 1.0922) (layers *.Cu *.Mask))
+  (model ${D}/HF46F.stp
+    (offset (xyz -3.5 9.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 90))
+  )
 )

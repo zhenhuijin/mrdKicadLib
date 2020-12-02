@@ -1,4 +1,4 @@
-(module RES.DIP.RV.471KD10 (layer F.Cu) (tedit 5DE0D4F0)
+(module RES.DIP.RV.471KD10 (layer F.Cu) (tedit 5FBCB6C9)
   (fp_text reference REF** (at -0.254 -5.6515) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -11,4 +11,9 @@
   (fp_line (start 5.3086 -4.2545) (end 5.3086 2.2225) (layer F.SilkS) (width 0.254))
   (pad 1 thru_hole circle (at -3.618 -2.3495 270) (size 2.3 2.3) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.7821 0.3175 270) (size 2.3 2.3) (drill 1.5) (layers *.Cu *.Mask))
+  (model ${D}/cp_15_17d5_60.stp
+    (offset (xyz 0 1 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 10))
+  )
 )

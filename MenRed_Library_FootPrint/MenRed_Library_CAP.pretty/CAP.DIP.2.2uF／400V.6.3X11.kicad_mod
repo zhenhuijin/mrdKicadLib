@@ -1,4 +1,4 @@
-(module CAP.DIP.2.2uF／400V.6.3X11 (layer F.Cu) (tedit 5F322C65)
+(module CAP.DIP.2.2uF／400V.6.3X11 (layer F.Cu) (tedit 5FBCB70A)
   (tags "10504.0105 2.2uF/±20%/400V/(Φ6.3*11)")
   (fp_text reference REF** (at 4.9022 2.8448) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -24,4 +24,9 @@
   (fp_line (start -0.0073 -3.5941) (end -0.0073 -0.1651) (layer F.SilkS) (width 0.127))
   (pad 1 thru_hole oval (at -1.2573 -0.1651 270) (size 1.5 1.2) (drill 0.7) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 1.2427 -0.1651 270) (size 1.5 1.2) (drill 0.7) (layers *.Cu *.Mask))
+  (model ${D}/cp_12_6d5_60.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

@@ -1,4 +1,4 @@
-(module CAP.DIP.330uF／25V.8X12 (layer F.Cu) (tedit 5F0407A0)
+(module CAP.DIP.330uF／25V.8X12 (layer F.Cu) (tedit 5FBCB73D)
   (tags "330uF/25V/(Φ8*12)")
   (fp_text reference REF** (at -1.1303 -4.7498) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -35,4 +35,9 @@
   (fp_line (start -5.6388 -0.01182) (end -4.3688 -0.01182) (layer F.SilkS) (width 0.2))
   (pad 1 thru_hole circle (at -1.4568 -0.055 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 1.74322 -0.05498 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+  (model ${D}/cp_6d8_9d5_60.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

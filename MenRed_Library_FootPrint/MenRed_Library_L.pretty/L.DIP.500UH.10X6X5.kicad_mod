@@ -1,4 +1,4 @@
-(module L.DIP.500UH.10X6X5 (layer F.Cu) (tedit 5F39F7F5)
+(module L.DIP.500UH.10X6X5 (layer F.Cu) (tedit 5FC5FBDB)
   (tags 500uH/2根0.65线双线并绕8圈/10*6*5mm)
   (fp_text reference REF** (at -0.635 6.1976) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -14,4 +14,9 @@
   (pad 2 thru_hole circle (at 4.121 -2.7686 90) (size 2 2) (drill 0.9) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at -3.429 2.1064 90) (size 2 2) (drill 0.9) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 4.121 2.0814 90) (size 2 2) (drill 0.9) (layers *.Cu *.Mask))
+  (model ${D}/l-500uh.stp
+    (offset (xyz 0.5 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )
